@@ -1,0 +1,23 @@
+unee_trifedapi.content:
+ path: '/minor-forest-produce/commodity'
+ defaults:
+  _controller: '\Drupal\unee_trifedapi\Controller\CommodityController::content'
+  _title: 'Commodity Profile'
+ requirements:
+  _permission: 'access content'
+
+unee_trifedapi.snd:
+ path: '/minor-forest-produce/snd'
+ defaults:
+  _controller: '\Drupal\unee_trifedapi\Controller\CommodityController::snd'
+  _title: 'State Nodal Departments'
+ requirements:
+  _permission: 'access content'
+
+unee_trifedapi.sio:
+ path: '/minor-forest-produce/sio'
+ defaults:
+  _controller: '\Drupal\unee_trifedapi\Controller\CommodityController::sio'
+  _title: 'Nodal and Implementing Agencies'
+ requirements:
+  _permission: 'access content'  

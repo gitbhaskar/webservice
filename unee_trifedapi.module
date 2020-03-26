@@ -1,0 +1,25 @@
+<?php  
+/**
+* Service url...
+*/
+CONST TRIFED_API_URL='http://52.172.199.174/trifed_uat/public/api/v1/get-commodities/';
+CONST TRIFED_SNDSIO_URL='http://52.172.199.174/trifed_uat/public/api/v1/snd_sio/';
+//CONST CURRENT_FIN_YEAR='3';
+
+/**
+* @ hook_theme function....
+*/
+function unee_trifedapi_theme($existing, $type, $theme, $path) {
+	
+  return array(
+    'unee_trifedapi_template' => array(
+      'variables' => array('trifed_var' => NULL),
+    ),
+	'unee_snd_template' => array(
+      'variables' => array('snd_var' => NULL),
+    ),
+	'unee_sio_template' => array(
+      'variables' => array('sio_var' => NULL),
+    ),
+  );
+}  

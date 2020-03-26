@@ -1,0 +1,5 @@
+name: Unee Trifed Api
+description: 'Module for implementing api in the Trifed website'
+type: module
+core: 8.x
+version: 1.0
